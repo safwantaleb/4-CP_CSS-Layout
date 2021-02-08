@@ -356,14 +356,24 @@ ul li:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-
 }
 
-.links :hover {
-    color: green;
-    cursor: pointer;
+.links svg{
+    fill: gray;
 }
+
+.links svg:hover{
+    fill: #00b39b ;
+}
+
+.links img{
+    filter: grayscale(100%);
+}
+
+.links img:hover{
+    filter: none;
+}
+
 
 .begin {
     width: 25%;
@@ -378,15 +388,6 @@ ul li:hover {
 
 }
 
-.links a {
-
-    text-decoration: none;
-    color: #3d83df;
-    outline: 0;
-    transition: all .2s ease 0s;
-    background-color: transparent;
-
-}
 
 .third {
     background: #e5faf8;
